@@ -8,8 +8,8 @@ phases:
     commands:
       - echo Building the Go code...
       - go build hello.go
-# artifacts:
-#   secondary-artifacts:
-#     golang_artifacts:
-#       files:
-#         - hello
+artifacts:
+  secondary-artifacts:
+    golang_artifacts:
+      files:
+        - hello
