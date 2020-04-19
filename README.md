@@ -1,2 +1,2 @@
 # membership-service
-API service to create and edit membership
+Service to manage membership. This services allows CRUD operation on members.
